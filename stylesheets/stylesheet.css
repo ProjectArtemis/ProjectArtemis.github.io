@@ -888,6 +888,6 @@ footer a:hover {
 
 @font-face {
     font-family: LTAroma;
-    src: url('../stylesheets/aroma.ttf');
+    src: url('../fonts/LinotypeAroma.ttf') format('truetype');
 }
 
