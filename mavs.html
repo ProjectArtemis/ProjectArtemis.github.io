@@ -46,32 +46,93 @@
         <section  id="main-content">
           <h1><span  style="font-family: LTAroma;">Our MAVs</span></h1>
           <h2><span  style="font-family: LTAroma;"><span  style="color: rgb(102, 102, 102);">MAV3</span></span></h2>
-          <p><span  style="font-family: LTAroma;">MAV3 is the current
-              bleeding-edge experimental platform for testing of Qualcomm
-              Snapdragon hardware for flight control and higher-level functions.
-              The MAV is a 250-sized quadrotor, and can be comfortably flown
-              indoors.<span  style="font-family: &quot;Helvetica Neue&quot;,Helvetica,Arial,serif;"><br>
-              </span></span></p>
-          <p  style="height: 116px;"><span  style="font-family: LTAroma;"><strong>Computation
-                and Autopilot : </strong></span><span  style="font-family: LTAroma;">Snapdragon
-              Flight<br>
+          <p  style="margin-top: -6px;"><span  style="font-family: LTAroma;">MAV3
+              is the current bleeding-edge experimental platform for testing of
+              the Linux port of the PX4 flight stack. MAV3 will be using Linux
+              boards (Snapdragon Flight, RPi 2, etc.) for flight control </span><span
+               style="font-family: LTAroma;"><span  style="font-family: LTAroma;">and
+                higher-level functions, </span>on all revisions. The aim is to
+              provide a robust high-definition video streaming platform, while
+              remaining very compact and still having sufficient computational
+              power for vision applications. The MAV is a 250-sized quadrotor,
+              and can be very comfortably flown indoors.<span  style="font-family: &quot;Helvetica Neue&quot;,Helvetica,Arial,serif;"></span></span></p>
+          <p  style="margin-top: -27px;"><br>
+            <span  style="font-family: LTAroma;"><em  style="font-weight: bold; text-decoration: underline;">Rev
+                1 hardware : </em></span></p>
+          <p  style="height: 84px; margin-top: -15px;"><span  style="font-family: LTAroma;"><strong>Computation
+                and Autopilot : </strong></span><span  style="font-family: LTAroma;">Raspberry
+              Pi 2 with Navio shield<br>
             </span> <span  style="font-family: LTAroma;"><strong>GNSS :</strong>
-            </span><span  style="font-family: LTAroma;">
-              <meta  http-equiv="content-type"  content="text/html; charset=utf-8">
-              Telit Jupiter SE868 v2 <em>(Integrated)</em><br>
+            </span><span  style="font-family: LTAroma;">Ublox M8<em>
+                (Integrated)</em><br>
             </span> <span  style="font-family: LTAroma;"><strong>Communications
-                :</strong> Qualcomm VIVE MIMO 802.11n/ac <em>(Integrated)</em><br>
-            </span> <span  style="font-family: LTAroma;"><strong>Cameras : </strong><em>(Integrated)</em></span><br>
-            <meta  http-equiv="content-type"  content="text/html; charset=utf-8">
-          </p>
-          <h2><span  style="font-family: LTAroma;"><span  style="color: rgb(102, 102, 102);">MAV2</span></span></h2>
+                :</strong> <em>(Integrated)</em></span><span  style="font-family: LTAroma;"><em></em></span></p>
+          <p  style="height: 20px; margin-top: -17px;"><span  style="font-family: LTAroma;"><em
+                 style="font-weight: bold; text-decoration: underline;">Rev 2
+                hardware :</em></span><span  style="font-family: LTAroma;"><strong><br>
+              </strong></span></p>
+          <p  style="height: 5px; margin-top: -15px;"><span  style="font-family: LTAroma;"><strong>Computation
+                and Autopilot : </strong></span><span  style="font-family: LTAroma;">Inforce
+              6540 with custom shield<em  style="font-weight: bold; text-decoration: underline;"><br>
+              </em></span></p>
+          <p  style="height: 5px; margin-top: -15px;"><span  style="font-family: LTAroma;"><em
+                 style="font-weight: bold; text-decoration: underline;"><br>
+              </em></span></p>
+          <p  style="height: 5px; margin-top: -15px;"><span  style="font-family: LTAroma;"><em
+                 style="font-weight: bold; text-decoration: underline;"><br>
+              </em></span></p>
+          <p  style="height: 8px; margin-top: -9px;"><span  style="font-family: LTAroma;"><em
+                 style="font-weight: bold; text-decoration: underline;">Rev 3
+                hardware <span  style="font-family: &quot;Helvetica Neue&quot;,Helvetica,Arial,serif;">:</span></em></span><span
+               style="font-family: LTAroma;"><strong><br>
+              </strong></span></p>
+          <span  style="font-family: LTAroma;"><strong>Computation and Autopilot
+              : </strong></span><span  style="font-family: LTAroma;">Snapdragon
+            Flight</span>
+          <h2><span  style="font-family: LTAroma;"><span  style="color: rgb(102, 102, 102);">MAV2<br>
+              </span></span></h2>
           <p><span  style="font-family: LTAroma;">MAV2 is the current-generation
-              development prototype. It carries an Intel Core i7 Skylake-series
-              computer. The system purges all other deprecated interfaces, and
-              uses only CAN-bus and the UAVCAN protocol for all onboard
-              intra-modular communication. It is also much smaller than the
-              previous MAV1, and can safely fly inside a stairwell.</span></p>
-          <p  style="height: 116px;"><span  style="font-family: LTAroma;"><strong>Computation
+              development prototype. It currently carries an Intel Core i7
+              Skylake-series computer. The system purges all other deprecated
+              interfaces, and uses only CAN-bus and the UAVCAN protocol for all
+              onboard intra-modular communication. It is also much smaller than
+              the previous MAV1, and can safely fly inside a stairwell. It's aim
+              is to provide a powerful testbed for computer vision algorithms,
+              path planners and visual SLAM.</span><br>
+            <span  style="font-family: LTAroma;"><em  style="font-weight: bold; text-decoration: underline;">Rev
+                1 hardware : </em></span><br>
+            <span  style="font-family: LTAroma;"><strong>Computation : </strong>Odroid
+              C1<br>
+            </span> <span  style="font-family: LTAroma;"><strong>Autopilot :</strong>
+              Pixhack (Pixhawk derivative with internally-dampened IMU)<br>
+            </span> <span  style="font-family: LTAroma;"><strong>GNSS :</strong>
+              Zubax GNSS v1<br>
+            </span> <span  style="font-family: LTAroma;"><strong>Communications
+                :</strong> ALFA AWUS036H 802.11g (short-range)<br>
+            </span> <span  style="font-family: LTAroma;"><strong>Camera : </strong>1
+              x HD TI-DM368 IP camera module</span></p>
+          <img  alt=""  src="images/gallery/mav2-r1.jpg">
+          <p><span  style="font-family: LTAroma;"><em  style="font-weight: bold; text-decoration: underline;">Rev
+                2 hardware : </em><br>
+            </span></p>
+          <p  style="height: 146px; margin-top: -16px;"><span  style="font-family: LTAroma;"><strong>Computation
+                : </strong>Intel Core i7 board <br>
+            </span> <span  style="font-family: LTAroma;"><strong>Autopilot :</strong>
+              Pixhack (Pixhawk derivative with internally-dampened IMU)<br>
+            </span> <span  style="font-family: LTAroma;"><strong>GNSS :</strong>
+              Zubax GNSS v1<br>
+            </span> <span  style="font-family: LTAroma;"><strong>Communications
+                :</strong> Ubiquiti Rocket M5 (long range, upto 5 km)<br>
+            </span> <span  style="font-family: LTAroma;"><strong>Cameras : </strong>1
+              x PX4Flow, 2 x IDS uEye SE (stereo configuration)<strong> , </strong>1
+              x<strong> </strong>PointGrey FireFly-MV USB (bottom facing)<strong></strong></span></p>
+          <p  style="height: 466px; margin-top: -16px;"><span  style="font-family: LTAroma;"><strong></strong></span><span
+               style="font-family: LTAroma;"><strong></strong></span><img  alt=""
+               src="images/gallery/mav2-r2.jpg"></p>
+          <p  style="height: 162px;"><span  style="font-family: LTAroma;"><strong><span
+                   style="text-decoration: underline; font-style: italic;">Rev 3
+                  hardware</span> :<br>
+              </strong></span><span  style="font-family: LTAroma;"><strong>Computation
                 : </strong>Intel Core i7 board <br>
             </span> <span  style="font-family: LTAroma;"><strong>Autopilot :</strong>
               Pixhack (Pixhawk derivative with internally-dampened IMU)<br>
@@ -80,13 +141,10 @@
             </span> <span  style="font-family: LTAroma;"><strong>Communications
                 :</strong> Ubiquiti Rocket M5 (long range, upto 5 km)<br>
             </span> <span  style="font-family: LTAroma;"><strong>Cameras : </strong>1
-              x PX4Flow, 2 x IDS uEye SE (stereo configuration)<strong> , </strong>1
-              x<strong> </strong>PointGrey FireFly-MV USB (bottom facing) <strong><br>
-              </strong></span> <span  style="font-family: LTAroma;"><strong>Laser
-                Scanner :</strong> Neato XV-11 Lidar <br>
+              x PX4Flow, 2 x IDS uEye SE (stereo configuration)<strong></strong></span><br>
+            <span  style="font-family: LTAroma;"><strong>Laser Scanner :</strong>&nbsp;
+              Neato-XV11<br>
             </span></p>
-          <p  style="height: 17px;"><span  style="font-family: LTAroma;"><br>
-            </span> </p>
           <h2><span  style="font-family: LTAroma;"><span  style="color: rgb(102, 102, 102);">MAV1</span></span></h2>
           <p><span  style="font-family: LTAroma;">MAV1 was the first Artemis
               series vehicle to carry Intel x86 computing onboard. It is powered
@@ -105,7 +163,7 @@
             </span> <span  style="font-family: LTAroma;"><strong>Cameras : </strong>2
               x<strong> </strong>PointGrey FireFly-MV USB (stereo
               configuration)</span></p>
-          <span  style="font-family: LTAroma;"><img  alt=""  src="images/content/mav1.jpg"></span>
+          <span  style="font-family: LTAroma;"><img  alt=""  src="images/gallery/mav1.jpg"></span>
           <h2><span  style="font-family: LTAroma;"><span  style="color: rgb(102, 102, 102);">MAV
                 X</span></span></h2>
           <span  style="font-family: LTAroma;"> MAV X was the very first among
@@ -121,11 +179,11 @@
           </span> <span  style="font-family: LTAroma;"><strong>GNSS :</strong>
             None<br>
           </span> <span  style="font-family: LTAroma;"><strong>Communications :</strong>
-            Wireless 802.11AC (short range)<br>
+            D-Link 802.11ac (short range)<br>
           </span> <span  style="font-family: LTAroma;"><strong>Cameras : </strong>PX4Flow<strong>,
             </strong>PointGrey FireFly-MV USB (bottom facing)<br>
           </span> <span  style="font-family: LTAroma;"><br>
-          </span> <span  style="font-family: LTAroma;"><img  alt=""  src="images/content/mavX.jpg"><br>
+          </span> <span  style="font-family: LTAroma;"><img  alt=""  src="images/gallery/mavX.jpg"><br>
           </span> <span  style="font-family: LTAroma;"><br>
           </span> <span  style="font-family: LTAroma;"><br>
           </span>
